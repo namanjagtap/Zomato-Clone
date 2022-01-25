@@ -12,7 +12,7 @@ const Data = [
     {
       id: "3",
       title: "Zomato Pro",
-      img: "zomato_Pro.png"
+      img: "zomato_pro.png"
     },
     {
       id: "4",

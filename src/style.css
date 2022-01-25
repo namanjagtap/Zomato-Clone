@@ -16,16 +16,6 @@ header{
     background-size: cover;
 }
 
-/* .bg-image{
-    background-image: url("./images/header-cover-img.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .header--nav{
     margin: 0px;
     padding: 0px 200px 0px 200px;
@@ -62,13 +52,12 @@ header{
 }
 
 .categories{
+    margin-top: 50px;
     display: flex;
-    /* gap: 30px; */
+    justify-content: space-between;
 }
 
 .category{
-    margin: 50px 40px 0px 40px;
-    /* max-width: 110rem; */
     border: 1px solid rgb(179, 173, 173);
     border-radius: 20px;
     position:relative;
@@ -83,25 +72,23 @@ header{
 
 .category--img{
     border-radius: inherit;
-    max-width: 100%;
-    max-height: 100%;
+    width: 267px;
+    height: 240px;
     object-fit: cover;
 }
 
 .category--title{
-    /* position: absolute; */
-    /* bottom: -16px; */
     font-size: 20px;
     background-color: #ffffff;
     text-align: center;
-    padding: 1rem 0px 1.6rem;
+    padding: 8px 0px 14px;
     width: 100%;
     position: absolute;
     bottom: 0px;
     left: 0px;
     background: white;
     border: 1px solid rgb(232, 232, 232);
-    border-radius: 0px 0px 1.2rem 1.2rem;
+    border-radius: 0px 0px 20px 20px;
     box-sizing: border-box;
 }
 
@@ -120,7 +107,6 @@ header{
 }
 
 .collection--item{
-    /* margin-left: 15px; */
     border-radius: 20px;
     position: relative;
     color: #ffffff;
@@ -143,7 +129,7 @@ header{
 }
 
 .collection-img{
-    width: 310px;
+    width: 267px;
     height: 380px;
     object-fit: cover;
     border-radius: inherit;
@@ -157,8 +143,6 @@ header{
     left: 0px;
     border-radius: inherit;
     padding: 0px 0px 3px 10px;
-    /* color: #ffffff; */
-    /* font-weight: 200; */
     box-sizing: border-box;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
@@ -178,7 +162,6 @@ header{
     margin: 50px 0px 5px 0px;
     border-radius: 20px;
     position: relative;
-    /* line-height: 11px; */
 }
 
 .food--img{
@@ -300,7 +283,6 @@ header{
 
 .footer--content > p{
     font-size: 16px;
-    /* line-height: 2.1rem; */
     color: #696969;
     margin: 5px 0px;
     font-weight: 300;
